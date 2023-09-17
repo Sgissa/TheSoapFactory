@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BI;
+    src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(fonts/Lora-Regular.ttf);
+}
+nav{
+    height: 155px;
+    width:1805px ;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .links { 
+
+
+
+}
+
+nav .links a {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-right: 51px;
+    color: black;
+    font-family: Roboto-Light;
+}
+
+nav .links a.active {
+    color: #ef767a;
+    font-family: Roboto-BI;
+
+}
+
+nav .logo {
+
+}
+
+nav .logo span {
+font-size: 30px;
+font-family: Roboto-Bold;
+color: #ef767a;
+}
+
+.hero{
+height: 330px;
+width: 1690px;
+background-image: url(../images/hero.jpg);
+margin: 0 55px 0 60px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+section{
+    position: relative;
+}
+.content {
+    width: 1690px;
+    height: 595px;
+    margin: 0 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.content .textbox1 {
+    width: 513px;
+    min-height: 322PX;
+    /* background-color: blue; */
+    margin-top: 137px;
+}
+.content .textbox2 {
+    width: 513px;
+    min-height: 322PX;
+    /* background-color: blue; */
+    margin-top: 201px;
+}
+
+.sideways {
+    width: 106px;
+    height: 347px;
+    position: absolute;
+    top: 0;
+    z-index: 99
+    ;
+    
+}
+.sideways2 {
+    width: 106px;
+    height: 347px;
+    position: absolute;
+    top: 0;
+    z-index: 99
+    ;
+    
+}
+.aboutmom {
+    width: 1690px;
+    height: 595px;
+    margin: 0 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .bin {
+    width: 817px;
+    height: 355px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bin .left {
+    width: 224px;
+    min-height: 224PX;
+    /* background-color: blue; */
+   
+}
+
+.bin .left .picture {
+    width: 224px;
+    height: 224px;
+border-radius: 50%;
+background-image: url(../images/owner.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.bin .right {
+    width: 513px;
+    height: 355px;
+    /* background-color: red; */
+    margin-top: 57px;
+}
+
+.aboutmom2 {
+    width: 1690px;
+    height: 595px;
+    margin: -200px 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmom2 .bin .left2 .picture {
+    width: 224px;
+    height: 224px;
+border-radius: 50%;
+background-image: url(../images/co-owner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.aboutmom3 {
+    width: 1690px;
+    height: 595px;
+    margin: 0 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .bin {
+    width: 817px;
+    height: 355px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bin .east {
+    width: 224px;
+    min-height: 224PX;
+    /* background-color: blue; */
+   
+}
+
+.bin .east .picture {
+    width: 224px;
+    height: 224px;
+border-radius: 50%;
+background-image: url(../images/butter-almond-soap.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.bin .right {
+    width: 513px;
+    height: 355px;
+    /* background-color: red; */
+    margin-top: 57px;
+}
+
+.aboutmom4 {
+    width: 1690px;
+    height: 595px;
+    margin: -200px 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmom4 .bin .left2 .picture2 {
+    width: 224px;
+    height: 224px;
+border-radius: 50%;
+background-image: url(../images/rose-gold-soap.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+.aboutmom5 {
+    width: 1690px;
+    height: 595px;
+    margin: -200px 55px 0 60px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmom5 .bin .left3 .picture {
+    width: 224px;
+    height: 224px;
+border-radius: 50%;
+background-image: url(../images/luxury-soap.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+h1 {
+font-size: 30px;
+font-family: Roboto-BI;
+color: #ef767a;
+}
+
+p {
+    font-size: 18px;
+    font-family: Lora ;
+}
+
+section .sideways div {
+    transform: rotate(-90deg);
+    color: #ef767a;
+    margin-top: 110px;
+    font-size: 80px;
+    font-family: Roboto-Bold;
+    letter-spacing: 35px;
+    opacity: 80%;
+}
+ 
+
+section .sideways2 div {
+    transform: rotate(-90deg);
+    color: #ef767a;
+    margin-top: 350px;
+    font-size: 80px;
+    font-family: Roboto-Bold;
+    letter-spacing: 35px;
+    opacity: 80%;
+}
+
+section .sideText{
+    height: 603px;
+width: 106px;
+/* background-color: aqua; */
+position: absolute;
+top: 0;
+}
+section .sideText div {
+    transform: rotate(-90deg);
+    color: #ef767a;
+    margin-top: 350px;
+    font-size: 80px;
+    font-family: Roboto-Bold;
+    letter-spacing: 35px;
+    opacity: 80%;
+}
+
+section .stylingform {
+    width: 1014px;
+    min-height: 300px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    margin-top: 162px;
+}
+
+.textInputs input {
+    margin-bottom: 87px;
+    height: 81px;
+    border: solid 3px #ef767a;
+    padding: 0 20px;
+}
+.textInputs label, input {
+    display: block;
+    width: 1014px;
+  
+}
+
+.textInputs label {
+    margin-bottom: 29px;
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: black;
+}
+
+.submitBotton input{
+    width: 246px;
+    height: 76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 165px;
+}
+
+.subBtn {
+    padding: 10px 60px;
+    background-color: #ef767a;
+    border-style: none;
+    border-radius: 38px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 155px;
+    width:1805px ;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: #f8f8f8;
+    
+}
+
+footer .copyright {
+font-family: Roboto-Light;
+
+}
+footer .terms {
+    font-family: Roboto-Light;
+}
+
+
+
+
+
+   
